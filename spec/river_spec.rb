@@ -41,7 +41,9 @@ class RiverTest < MiniTest::Test
     assert_equal(1,@river.count_fish)#check stock level at 1
     @river.increase_stock(@fish)#increase stock a second time by 1
     assert_equal(2,@river.count_fish)#check that increased  by one again
-end
+  end
+
+
 
 
 

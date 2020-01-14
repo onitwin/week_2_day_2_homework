@@ -65,6 +65,20 @@ class BearTest < MiniTest::Test
 
 
 
+  def test_get_name_getter
+    assert_equal("Grylls",@bear.get_name)
+  end
+
+  def test_get_species_getter
+    assert_equal("Red Panda",@bear.get_species)
+  end
+
+  def get_stomach_getter
+    assert_equal([],@bear.get_stomach)
+  end
+
+
+
 
 
 
